@@ -1,4 +1,5 @@
 import React from 'react';
+import Counter from './state.tsx'
 
 function Profile1() {
   return (
@@ -37,6 +38,7 @@ export default function About() {
          <div>
             <h2>Fala</h2>
              <Profile2 />
+             <Counter />
          </div>
       </>
 
