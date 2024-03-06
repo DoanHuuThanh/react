@@ -1,6 +1,7 @@
 import React from 'react';
 import Counter from './state.tsx'
 import ShowPlace from './context.tsx'
+import RunVideo from './useRef.tsx';
 
 function Profile1() {
   return (
@@ -41,6 +42,7 @@ export default function About() {
              <Profile2 />
              <Counter />
              <ShowPlace />
+             <RunVideo />
          </div>
       </>
 

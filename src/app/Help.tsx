@@ -3,6 +3,7 @@ import TeaSet from './pure.tsx'
 import Run from './ani.tsx'
 import Showimage from './showimage.tsx'
 import Form from './user.tsx'
+import RunPlayground from './useEffext.tsx';
 export default function Home() {
     return (
       <div>
@@ -12,6 +13,7 @@ export default function Home() {
              <Run />
              <Showimage />
              <Form />
+             <RunPlayground />
          </div>
       </div>
 
