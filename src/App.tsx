@@ -8,7 +8,7 @@ import Layout from './app/Layout.tsx'
 import Contact from './app/Contact.tsx'
 import Show from './app/g5.tsx'
 import Help from './app/Help.tsx'
-
+import Dash from './app/Dash.tsx'
 import './App.css'
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
           <Route path="Contact" element={<Contact />} />
           <Route path="Show" element={<Show />} />
           <Route path="Help" element={<Help />} />
+          <Route path="Dash" element={<Dash />} />
         </Route>
       </Routes>
     </BrowserRouter>

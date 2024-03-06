@@ -1,5 +1,6 @@
 import { Profile1, Profile2 } from './g4.tsx';
 import Hthi from './g6.tsx'
+import {FeedbackForm, Menu} from './g7.tsx'
 
 export default function Contact() {
     return (
@@ -8,6 +9,8 @@ export default function Contact() {
             <Profile1 />
             <Profile2  />
             <Hthi />
+            <FeedbackForm />
+            <Menu />
         </div>
     )
 }
