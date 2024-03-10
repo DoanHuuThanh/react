@@ -1,4 +1,6 @@
 import React from 'react';
+import GetUsers from '../components/GetUser';
+import FormAddUser from '../components/FormAddUser';
  
 interface Person {
     name: string;
@@ -52,7 +54,8 @@ interface Person {
            } 
            size = {200}
            />           
-
+          <FormAddUser />
+          <GetUsers />
      </div>
 
     )

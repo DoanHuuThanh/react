@@ -1,6 +1,7 @@
 import { Profile1, Profile2 } from './g4.tsx';
 import Hthi from './g6.tsx'
 import {FeedbackForm, Menu} from './g7.tsx'
+import Counter from '../features/counter/Counter.tsx';
 
 export default function Contact() {
     return (
@@ -11,6 +12,7 @@ export default function Contact() {
             <Hthi />
             <FeedbackForm />
             <Menu />
+            <Counter />
         </div>
     )
 }
